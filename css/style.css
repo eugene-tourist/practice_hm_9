@@ -1,0 +1,321 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    background-color: grey;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+
+.services {
+    background: url(../img/our_services/blob.png) 100% -581px  no-repeat, #F5F5F5;
+    font-family: Roboto;
+    padding: 110px 0 0 0;
+}
+
+.services-content {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.services-subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    line-height: 2;
+    text-transform: uppercase;
+    background: url(../img/our_services/icon.svg) 0 -2px no-repeat;
+    padding-left: 35px;
+    color: #5D62B5;
+    margin-bottom: 35px;
+}
+
+/* .services-subtitle::before{
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 23px;
+    background: url(../img/our_services/icon.svg) 0 7px no-repeat;
+    
+    padding-right: 34px;
+} */
+
+.services-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+    margin-bottom: 78px;
+}
+
+.services-cards {
+    font-size: 0;
+    margin-bottom: 42px;
+}
+
+.card {
+    max-width: 324px;
+    display: inline-block;
+    padding: 50px 44px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.card:not(:nth-child(3),:nth-child(6)){
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.card:hover{
+    box-shadow: 0px 2px 7px 1px #4B4B4B;
+}
+
+.card-image{
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.card-title {
+    color: #F2726F;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.36;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    color: #4B4B4B;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+
+.services-button{
+    text-align: center;
+}
+
+.button {
+    max-width: 124px;
+    padding: 15px 15px;
+    text-align: center;
+    background-color: #F2726F;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+}
+
+/** OUR PROMISE TO YOU*/
+.promise {
+    background-color: #F5F5F5;
+    padding: 120px 0px;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.promise-content {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.promise-subtitle {
+    color: #5D62B5;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background: url(../img/our_promise/icon.svg) 0 -2px no-repeat;
+    padding-left: 34px;
+    margin-bottom: 33px;
+}
+
+.promise-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+    margin-bottom: 70px;
+}
+
+.promise-items {
+    font-size: 0;
+}
+
+.item {
+    display: inline-block;
+    max-width: 33.333%;
+}
+
+.item-image {
+    display: inline-block;
+    width: 86px;
+    vertical-align: top;
+}
+
+.promise-body {
+    display: inline-block;
+    max-width: 235px;
+}
+
+.body-title{
+    color: #F2726F;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.36;
+    margin-bottom: 20px;
+}
+
+.promise-text {
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+
+.impact {
+    background: url(../img/our_impact/blob.png) 600px 0px no-repeat, #29C3BE;
+    padding: 100px 0;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.impact-content {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.impact-content-body{
+    display: inline-block;
+    max-width: 411px;
+    margin-right: 82px;
+    margin-bottom: 75px;
+}
+
+.impact-subtitle {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background: url(../img/our_impact/icon.svg) 0 -2px no-repeat;
+    padding-left: 34px;
+    margin-bottom: 35px;
+}
+
+.impact-title {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+}
+
+/* .impact img{
+    margin-top: -10px;
+    border-radius: 30px;
+} */
+
+.impact-image {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 35px;
+}
+.impact-image img{
+    margin-top: -180px;
+    border-radius: 35px;
+}
+
+.impact-items {}
+
+.impact-item {
+    display: inline-block;
+    max-width: 237px;
+}
+
+.impact-item:not(:last-child){
+    margin-right: 74px;
+}
+
+.impact-body {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.impact-body-title {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.16;
+}
+
+.impact-body-text {
+    color: #5D62B5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+
